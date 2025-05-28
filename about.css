@@ -73,7 +73,11 @@
     flex-direction: column;
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
-    font-family: cursive;
+    font-family: helvetica;
+    font-size: large;
+  }
+  .hero h2{
+    color: #e91e63;
   }
   
 

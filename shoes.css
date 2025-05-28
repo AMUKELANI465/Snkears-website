@@ -195,6 +195,12 @@
   p {
     font-size: 14px;
   }
+  @media (max-width: 480px) {
+  .product-card {
+    align-items: center;
+    text-align: center;
+  }
+}
 }
 .btn-shop {
   background-color: #e91e63;
