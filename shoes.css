@@ -101,8 +101,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-template-rows: subgrid;
-    gap: 30px;
-    padding: 100px;
+    gap: 50px;
+    padding: 10px;
   }
   
   .product-card {

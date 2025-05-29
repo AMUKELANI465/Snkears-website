@@ -195,6 +195,13 @@
   p {
     font-size: 14px;
   }
+  @media (max-width: 480px) {
+  .product-card {
+    max-width: 100%;
+    padding: 10px;
+
+  }
+}
 }
 .btn-shop {
   background-color: #e91e63;
@@ -225,6 +232,16 @@
   border-radius: 6px;
   cursor: pointer;
   text-decoration: none;
+}
+@media (max-width: 480px) {
+  .section {
+    padding: 20px 10px;
+  }
+}
+@media (max-width: 768px) {
+  .products-grid {
+    padding: 20px;
+  }
 }
 
 
