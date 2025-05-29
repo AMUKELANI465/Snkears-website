@@ -68,8 +68,7 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
-    border-bottom-left-radius: 13px;
-    border-bottom-right-radius: 13px;
+
     font-family: cursive;
   }
   

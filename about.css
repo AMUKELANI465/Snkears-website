@@ -60,10 +60,10 @@
   }
   
   .hero {
-    background: url(jordans1.webp) no-repeat center/cover;
+    background: url(sneaker-x499s7jambwdigab.jpg) no-repeat center/cover;
    
     height: 90vh;
-    color: black;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +129,7 @@
   }
   
   .about {
-    background: url(sneaker5.jpg);
+    background: url(sneaker-x499s7jambwdigab.jpg);
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
