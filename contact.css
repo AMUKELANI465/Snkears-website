@@ -33,12 +33,9 @@
     font-size: 1.8em;
     font-weight: bold;
     font-family: fantasy;
-    color: #e91e63;
-  }
-  .logo:hover{
     color: white;
   }
-  
+
   nav ul {
     display: flex;
     list-style: none;
