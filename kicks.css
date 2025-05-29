@@ -32,7 +32,7 @@
   .logo {
     font-size: 1.8em;
     font-weight: bold;
-    font-family: fantasy;
+    font-family: helvetica;
     color: white;
   }
 
@@ -60,7 +60,7 @@
   }
   
   .hero {
-    background: url(sneaker4.jpg) no-repeat center/cover;
+    background: url(f329ab9228a94f2043586f18a807539d.jpg) no-repeat center/cover;
    
     height: 90vh;
     color: rgb(250, 84, 84);
