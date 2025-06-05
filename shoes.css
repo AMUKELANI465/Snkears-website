@@ -195,7 +195,7 @@
   p {
     font-size: 14px;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 968px) {
   .product-card {
     align-items: center;
     text-align: center;
