@@ -6,7 +6,7 @@
   
   body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f5f5f5;
+    background-color: white;
     color: #333;
     scroll-behavior: smooth;
   }
@@ -58,91 +58,13 @@
     margin: auto;
   }
   
-  .hero {
-    background: url(sneaker4.jpg) no-repeat center/cover;
-   
-    height: 90vh;
-    color: rgb(250, 84, 84);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
 
-    font-family: cursive;
-  }
   
   .hero h1 {
     font-size: 3em;
     margin-bottom: 10px;
   }
   
-  .btn {
-    background-color: #e91e63;
-    color: white;
-    padding: 12px 25px;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  
-  .btn:hover {
-    background-color: #d81b60;
-  }
-  
-  .products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-template-rows: subgrid;
-    gap: 30px;
-    padding: 100px;
-  }
-  
-  .product-card {
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    text-align: center;
-    transition: transform 0.3s;
-  }
-  
-  .product-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .product-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  h2 {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .about {
-    background: url(sneaker5.jpg);
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  }
-  
-  footer {
-    background-color: #111;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 50px;
-    
-  }
-  
- 
   .contact-info {
     text-align: center;
     padding: 20px;
@@ -172,6 +94,25 @@
     color: #25D366; /* WhatsApp green or email highlight */
   }
   
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+
+  
+  footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    
+  }
+  
+ 
+
+  
   textarea {
     resize: vertical;
   }
@@ -180,18 +121,12 @@
     .hero h1 {
       font-size: 2.5em;
     }
-    }
-@media (max-width: 768px) {
-  p {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 480px) {
-  p {
+      p {
     font-size: 14px;
   }
-}
+    }
+
+
 .btn-shop {
   background-color: #e91e63;
   color: white;
