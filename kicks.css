@@ -6,7 +6,7 @@
   
   body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #111;
     color: #333;
     scroll-behavior: smooth;
   }
@@ -35,7 +35,15 @@
     font-family: helvetica;
     color: white;
   }
-
+ .btn-shop{
+  text-decoration: none;
+  background: white;
+  border-radius: 13px;
+  padding: 13px;
+  margin-top: 12px;
+  font-family: helvetica;
+  color: black;
+ }
   
   nav ul {
     display: flex;
@@ -53,23 +61,22 @@
     color: #e91e63;
   }
   
-  .section {
-    padding: 60px 20px;
-    max-width: 1100px;
-    margin: auto;
-  }
+
   
   .hero {
     background: url(1597802.jpg) no-repeat center/cover;
    
-    height: 90vh;
+    height: 100vh;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    font-family: helbvetica;
+    font-family: helvetica;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
   }
   
   .hero h1 {
@@ -77,28 +84,7 @@
     margin-bottom: 10px;
   }
   
-  .btn {
-    background-color: black;
-    color: white;
-    padding: 12px 25px;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  .btn-shop{
-    background-color: white;
-    color: black;
-    padding: 12px 25px;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
+
 
 
   
@@ -107,12 +93,7 @@
     margin-bottom: 30px;
   }
   
-  .about {
-    background: url(sneaker5.jpg);
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  }
+
   
   footer {
     background-color: #111;
@@ -120,39 +101,12 @@
     text-align: center;
     padding: 20px;
     margin-top: 50px;
+    
    
   }
+
   
- 
-  .contact-info {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .contact-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-  }
-  
-  .contact-item .icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-  }
-  
-  .contact-item a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-    font-weight: 500;
-  }
-  
-  .contact-item a:hover {
-    color: #25D366; /* WhatsApp green or email highlight */
-  }
-  
+
   textarea {
     resize: vertical;
   }
@@ -181,24 +135,6 @@
 }
 }
 
-
-
-
-.product-card {
-  max-width: 300px;
-  padding: 20px;
-  text-align: center;
-}
-
-.btn {
-  padding: 10px 20px;
-  background-color: #111;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  text-decoration: none;
-}
 @media (max-width: 480px) {
   .section {
     padding: 20px 10px;
