@@ -115,36 +115,18 @@
     .hero h1 {
       font-size: 2.5em;
     }
-    }
-@media (max-width: 768px) {
-  p {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 480px) {
-  p {
+     p {
     font-size: 14px;
   }
-  @media (max-width: 480px) {
-  .product-card {
-    max-width: 100%;
-    padding: 10px;
-
-  }
-}
-}
-
-@media (max-width: 480px) {
-  .section {
+    .section {
     padding: 20px 10px;
   }
-}
-@media (max-width: 768px) {
-  .products-grid {
-    padding: 20px;
-  }
-}
+
+    }
+
+
+
+
 
 
 

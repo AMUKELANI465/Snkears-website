@@ -93,10 +93,8 @@
     transition: background 0.3s;
   }
   
-  .btn:hover {
-    background-color: #d81b60;
-  }
   
+
   .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -130,12 +128,7 @@
     margin-bottom: 30px;
   }
   
-  .about {
-    background: url(sneaker5.jpg);
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  }
+
   
   footer {
     background-color: #111;
@@ -145,36 +138,11 @@
     margin-top: 50px;
     
   }
+
   
- 
-  .contact-info {
-    text-align: center;
-    padding: 20px;
-  }
   
-  .contact-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-  }
   
-  .contact-item .icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-  }
-  
-  .contact-item a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-    font-weight: 500;
-  }
-  
-  .contact-item a:hover {
-    color: #25D366; /* WhatsApp green or email highlight */
-  }
+
   
   textarea {
     resize: vertical;
@@ -188,6 +156,8 @@
     align-items: center;
     text-align: center;
     margin-left: 35px;
+  
+    
   }
    p {
     font-size: 14px;
