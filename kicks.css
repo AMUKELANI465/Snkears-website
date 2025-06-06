@@ -44,6 +44,10 @@
   font-family: helvetica;
   color: black;
  }
+ .btn-shop:hover{
+  box-shadow: 0 0 15px black, 0 0 25px black;
+  transform: scale(1.05);
+ }
   
   nav ul {
     display: flex;
