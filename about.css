@@ -60,7 +60,7 @@
   }
   
   .hero {
-    background: url(air-jordan-5-retro-gs-wolf-grey-hot-lava-4.jpg) no-repeat center/cover;
+    background: url(images/air-jordan-5-retro-gs-wolf-grey-hot-lava-4.jpg) no-repeat center/cover;
    
     height: 90vh;
     color: white;
@@ -87,7 +87,7 @@
   }
   
   .about {
-    background: url(sneaker-x499s7jambwdigab.jpg);
+    background: url(images/sneaker-x499s7jambwdigab.jpg);
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
